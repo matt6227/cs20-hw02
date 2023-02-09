@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mrs. Puff Driving School</title>
+<link rel="stylesheet" href="style.css">
+<head>
+
+<body>
+	<div class="wrap">
+		<div class="header" style="background-image: url('sky.jpg');">
+            Mrs. Puff's Driving School
+
+        </div>
+            <div class="nav" style="background-color:rgb(38, 0, 125);">
+                <div class="topnav" style="background-color:rgb(38, 0, 125);">
+                    <a href="index.html">Home</a>
+                    <a href="Locations.html">Locations</a>
+                    <!-- <a href="Our_staff.html">Our staff</a> -->
+                    <a href="Courses_and_pricing.html">Courses and Pricing</a>
+                    <a class="active" href="Contact_us.html">Contact us</a>
+                </div>
+            </div>
+            
+		<div class="container">
+<!-- start of the left container -->
+			<div class="left">
+                <br/>
+                <br/>
+                <form method="get" action="dosomething.php" name="form1" id="form1" >
+                    <input type='text' name='txtName' id='txtNameId' placeholder="First and Last name" style="width:200px; height:30px;"> 
+                    <br />
+                    <br />
+                    <h4>Interested in joining our mailing list? </h4>
+                    <br />
+                    <input type="radio" name='choice' value='yes' checked='1'>yes
+                    <input type="radio" name='choice' value='no'>no
+                    <br />
+                    <br />
+                    <select size='1' style="width:200px; height:40px">
+                    <option selected='1'>Select</option>
+                    <option value='2'>Boston</option> 
+                    <option value='3'>Medford</option>
+                    <option value='4'>Wellesley</option> 
+
+                    <option value='5'>Annandale</option> 
+                    <option value='6'>Richmond</option> 
+                    <option value='7'>Charlottesville</option> 
+
+                    <option value='8'>Tampa</option> 
+                    <option value='9'>Orlando</option> 
+                    <option value='10'>Miami</option> 
+
+                    </select>
+                    <br />
+                    <h4>Add course(s) and any notes for the program/instructor</h4>
+                    <br />
+                    <textarea rows='15'cols='50' placeholder="Enter Here"></textarea>
+                    <br /> 
+                    <br />
+                    <input style="width:100px; height:30px" type = 'reset'>
+                    <br />
+                     <input style="width:100px; height:30px" type = 'button' value='Submit'
+                            onclick="alert('hello there')">
+                </form>
+            </div>
+<!-- start of the right container -->
+			<div class="right">
+                <div style=" align-content: center; display: flex;">
+                    <img class="image_one" src="contact_us 8.jpg" alt="" height = 400 width=600 >
+                </div>
+            </div>
+			<div class="clear"></div>
+		</div>
+<!-- start of the footer -->
+		<div class="footer">
+            <footer>
+                <p>Cpany © Mrs.Puff's Driving School. All rights reserved</p>
+                <p><a href="Mrs.Puff@gmail.com" style="color: #ffffff;">Mrs.Puff@gmail.com</a></p>
+                <p>Facebook:Mrs.Puff's Driving School</p>
+                <p>Twitter: @PuffDrive</p>
+            </footer>
+        </div>
+        
+	</div>
+</body>
+</html>

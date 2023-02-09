@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mrs. Puff Driving School</title>
+    <style>
+    *{
+        margin:0;
+    }
+    .wrap{
+        width:100%;             
+        margin:auto;
+        background:#ddd;
+    }
+    .header{
+        margin-top: 1px;
+        background:rgb(47, 175, 255);
+        text-align: center;
+        font-size: 50px;
+        padding-top: 3%;
+        font-family: cursive;
+    }
+    .nav{
+        overflow: hidden;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+
+        height:50px;
+        background:rgb(38, 0, 125);
+        width: 100%
+    }
+    .container{
+        background:rgb(225, 78, 78);
+    }
+    .left{
+        width:55%;
+        height:700px;
+        float:left;
+        background-color:rgb(196, 196, 196);
+    }
+    .right{        
+        width:45%;
+	height:700px;
+	float:left;
+    background-color:rgb(196, 196, 196); /* color for the backgroun of right */
+
+    }
+    .clear{
+        clear:both;
+        background-color:rgb(196, 196, 196);
+    }
+    .footer{
+        position: fixed;
+        background:rgb(38, 0, 125); /* color of the footer  */
+        font-size: 20px;
+        font-style: italic;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        height:auto;
+        left: 0;
+        bottom: 0;
+        width: 100%
+    }
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(38, 0, 125);
+        width: 100%;
+    }
+    .topnav a {
+        float: left;
+        color: #ffffff; /*this is theh color of the words in the navigation bar */
+        text-align: center;
+        padding: 15px 50px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .topnav a:hover {
+        background-color: rgb(180, 180, 180); /*highlights the the navs in the navigation bar*/
+        color: black;
+    }
+    .topnav a.active {
+        background-color: #ffaf4e; /* highlihgts where you are in the navigation bar*/
+        color: rgb(0, 0, 0);
+    }
+    .topnav-right {
+        padding: 9px 20px 5px 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px; color: rgb(0, 0, 0); font-family:monaco;
+    }
+
+    .image_one {
+        position: relative; 
+        display: inline-flex;
+        border:5px solid #000000;
+        padding:15px;
+        margin:5px;
+    }
+    h2 {
+        font-size: 40px;
+        text-decoration: underline;
+    }
+    li {
+        font-size: 20px;
+    }
+    </style>
+<head>
+
+<body>
+	<div class="wrap">
+		<div class="header" style="background-image: url('sky.jpg');">
+            Mrs. Puff's Driving School
+
+        </div>
+            <div class="nav" style="background-color:rgb(38, 0, 125);">
+                <div class="topnav" style="background-color:rgb(38, 0, 125);">
+                    <a href="index.html">Home</a>
+                    <a href="Locations.html">Locations</a>
+                    <a class="active" href="Courses_and_pricing.html">Courses and Pricing</a>
+                    <a href="Contact_us.html">Contact us</a>
+                </div>
+            </div>
+            
+		<div class="container">
+
+<!-- start of the left container -->
+			<div class="left">
+                <h2>Private Lesson(s) (varies)</h2>
+                <p>
+                    <ul>
+                        <li>1 hour driving lesson ($60)</li>
+                        <li>1.5 hour driving lesson ($60)</li>
+                        <li>5 hour driving lesson ($60)</li>
+                        <li>10 hour driving lesson ($60)</li>
+                        <li>2 hour highway lesson ($60)</li>
+                        <li>1 hour driving private lesson ($60)</li>
+                        <li>1 hour driving private lesson ($60)</li>
+                        <li>10 hour driving private lesson ($60)</li>
+                        <li>Driver's retraining course</li>
+                        <li>Road test ($100)</li>
+                    </ul>
+                </p>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <h2>Student Bundle ($500)</h2>
+                    <ul>
+                        <li>40 hours classroom instruction</li>
+                        <li>20 hours behind-the-wheel instructions</li>
+                        <li>6 hours driving observation instructions</li>
+                        <li>Road test</li>
+                        <li>Driver's Education Certificate</li>
+                    </ul>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <h2>Extra information</h2>
+                <p style="font-size:20px;">
+                    Difference Between Private and Regular Lessons:
+                    For regular lessons, we will pick you up with the 
+                    previous student in the car, and during your lesson 
+                    as you are driving, we will drop off the previous 
+                    student. Then at the end of your lesson, we will 
+                    pickup the next student and then we will drive you 
+                    back. Please be prepared to spend extra time in the 
+                    car after your appointment ends as you are being 
+                    dropped off.For private lessons, we will block out 
+                    time before the lesson, so that there is no one to
+                    drop off and you will be driving alone with an instructor
+                    through the duration of your lesson. However, 
+                    we will pickup next student at the end of your 
+                    lesson, unless the next student is also private, 
+                    and then we will drop you off.
+                </p>
+            </div>
+<!-- start of the right container -->
+			<div class="right">
+                <div style="width: 50%; align-content: center; display: flex;">
+                    <img class="image_one" src="money_trees 5.jpg" alt="grilled_chicken" height = 400 width=600 >
+                </div>
+            </div>
+			<div class="clear"></div>
+		</div>
+<!-- start of the footer -->
+		<div class="footer">
+            <footer>
+                <p>Company © Mrs.Puff's Driving School. All rights reserved</p>
+                <p><a href="Mrs.Puff@gmail.com" style="color: #ffffff;">Mrs.Puff@gmail.com</a></p>
+                <p>Facebook:Mrs.Puff's Driving School</p>
+                <p>Twitter: @PuffDrive</p>
+            </footer>
+        </div>
+	</div>
+</div>
+</body>
+</html>
